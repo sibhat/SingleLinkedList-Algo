@@ -21,7 +21,6 @@ class SinglyLinkedList{
             this.tail = newNode;
         }
             this.length++;
-        
         return this;
     }
     pop(){
