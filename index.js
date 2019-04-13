@@ -34,9 +34,9 @@ class SinglyLinkedList{
         let removeNode = node.next;
         node.next = null;
         this.tail = node;
-        // decrease length
+        // decrement length
         this.length --;
-        // return the last node
+        // return the last node 
         return removeNode;
     }
     set(index, val){
