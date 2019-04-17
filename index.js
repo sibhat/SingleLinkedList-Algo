@@ -108,6 +108,7 @@ class SinglyLinkedList{
             }
             node = node.next;
             idx ++;
+            
         }
         lastNode.next = this.head;
         this.head =  kthNode.next;
