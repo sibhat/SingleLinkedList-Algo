@@ -27,6 +27,7 @@ class SinglyLinkedList{
         if(this.length === 0) return undefined;
         let node = this.head;
         // loop until the node before the tail
+        
         while(node.next.next){
             // assign next pointer to null; make it new tail
              node = node.next;
